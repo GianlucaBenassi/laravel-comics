@@ -81,6 +81,11 @@ body {
   color: #0282f9;
 }
 
+main {
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .jumbo {
   height: 400px;
 }
@@ -92,5 +97,54 @@ body {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+.series {
+  background-color: #1c1c1c;
+  padding: 10px 0;
+}
+
+.series h2 {
+  position: relative;
+  bottom: 35px;
+  background-color: #0282f9;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.series .row {
+  justify-content: center;
+}
+
+.series .card {
+  text-decoration: none;
+  width: calc(16.6666666667% - 30px);
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.series .card img {
+  width: 100%;
+  max-height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.series .card span {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.series .load-more {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #0282f9;
+  margin: 20px;
+  padding: 10px 50px;
 }
 
