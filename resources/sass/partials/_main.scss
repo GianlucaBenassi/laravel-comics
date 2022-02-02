@@ -35,6 +35,7 @@ main {
         margin: 15px;
         display: flex;
         flex-direction: column;
+        transition: all .3s;
 
         img {
             width: 100%;
@@ -47,6 +48,10 @@ main {
             color: #fff;
             margin-top: 20px;
         }
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 
     .load-more {
@@ -54,8 +59,15 @@ main {
         font-size: 14px;
         font-weight: bold;
         background-color: $mainBlue;
+        border: 2px solid $mainBlue;
         margin: 20px;
         padding: 10px 50px;
+        transition: all .5s;
+
+        &:hover {
+            color: $mainBlue;
+            background-color: #fff;
+        }
     }
 }
 

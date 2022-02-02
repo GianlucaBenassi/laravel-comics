@@ -47,6 +47,11 @@
                     color: $mainBlue;
                     font-size: 10px;
                 }
+
+                &:hover {
+                    color: $mainBlue;
+                    border-bottom: 5px solid $mainBlue;
+                }
             }
 
             input[type="text"] {
@@ -64,12 +69,9 @@
                 }
             }
 
-            &.active {
+            &.active a {
+                color: $mainBlue;
                 border-bottom: 5px solid $mainBlue;
-
-                a {
-                    color: $mainBlue;
-                }
             }
         }
     }

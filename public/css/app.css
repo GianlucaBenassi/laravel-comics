@@ -85,6 +85,11 @@ a {
   font-size: 10px;
 }
 
+.header-bottom nav ul li a:hover {
+  color: #0282f9;
+  border-bottom: 5px solid #0282f9;
+}
+
 .header-bottom nav ul li input[type=text] {
   border-left: 2px solid #fff;
   border-right: 2px solid #fff;
@@ -105,12 +110,9 @@ a {
   outline: none;
 }
 
-.header-bottom nav ul li.active {
-  border-bottom: 5px solid #0282f9;
-}
-
 .header-bottom nav ul li.active a {
   color: #0282f9;
+  border-bottom: 5px solid #0282f9;
 }
 
 main {
@@ -153,6 +155,7 @@ main {
   margin: 15px;
   display: flex;
   flex-direction: column;
+  transition: all 0.3s;
 }
 
 .series .card img {
@@ -169,13 +172,24 @@ main {
   margin-top: 20px;
 }
 
+.series .card:hover {
+  transform: scale(1.1);
+}
+
 .series .load-more {
   color: #fff;
   font-size: 14px;
   font-weight: bold;
   background-color: #0282f9;
+  border: 2px solid #0282f9;
   margin: 20px;
   padding: 10px 50px;
+  transition: all 0.5s;
+}
+
+.series .load-more:hover {
+  color: #0282f9;
+  background-color: #fff;
 }
 
 .shop {
@@ -239,6 +253,11 @@ footer .row {
   display: inline-block;
 }
 
+.footer-top .left .col ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .footer-top .right {
   width: 50%;
   background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
@@ -256,6 +275,11 @@ footer .row {
   text-transform: uppercase;
   border: 2px solid #0282f9;
   padding: 10px;
+  transition: all 0.5s;
+}
+
+.footer-bottom .sign-up:hover {
+  background-color: #0282f9;
 }
 
 .footer-bottom ul {

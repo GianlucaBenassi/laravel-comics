@@ -21,10 +21,15 @@ footer .row {
             }
 
             ul li a{
-                    color: #8f8f8f;
-                    font-size: 14px;
-                    margin: 3px 0;
-                    display: inline-block;
+                color: #8f8f8f;
+                font-size: 14px;
+                margin: 3px 0;
+                display: inline-block;
+
+                &:hover {
+                    color: #fff;
+                    text-decoration: underline;
+                }
             }
         }
     }
@@ -47,6 +52,11 @@ footer .row {
         text-transform: uppercase;
         border: 2px solid $mainBlue;
         padding: 10px;
+        transition: all .5s;
+
+        &:hover {
+            background-color: $mainBlue;
+        }
     }
 
     ul {
