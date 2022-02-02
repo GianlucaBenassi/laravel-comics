@@ -148,3 +148,33 @@ main {
   padding: 10px 50px;
 }
 
+.shop {
+  background-color: #0282f9;
+  padding: 50px 0;
+}
+
+.shop .row {
+  justify-content: space-around;
+}
+
+.shop .box {
+  min-width: 200px;
+}
+
+.shop .box a {
+  text-decoration: none;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.shop .box a img {
+  max-height: 50px;
+}
+
+.shop .box a span {
+  color: #fff;
+  white-space: nowrap;
+  margin-left: 15px;
+}
+
