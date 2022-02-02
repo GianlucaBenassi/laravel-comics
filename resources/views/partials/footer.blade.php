@@ -68,7 +68,20 @@
 
     <div class="footer-bottom">
         <div class="container">
-            
+            <div class="row">
+
+                <a href="#" class="sign-up">sing-up now!</a>
+
+                <ul>
+                    <li><a href="#"><span>follow us</span></a></li>
+                    <li><a href="#"><img src="{{asset('img\footer-facebook.png')}}" alt="facebook"></a></li>
+                    <li><a href="#"><img src="{{asset('img\footer-twitter.png')}}" alt="twitter"></a></li>
+                    <li><a href="#"><img src="{{asset('img\footer-youtube.png')}}" alt="youtube"></a></li>
+                    <li><a href="#"><img src="{{asset('img\footer-pinterest.png')}}" alt="pinterest"></a></li>
+                    <li><a href="#"><img src="{{asset('img\footer-periscope.png')}}" alt="peroscope"></a></li>
+                </ul>
+
+            </div>
         </div>
     </div>
 
