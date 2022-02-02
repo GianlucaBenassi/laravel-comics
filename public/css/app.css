@@ -15,17 +15,69 @@ body {
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .header-top {
   background-color: #0282f9;
   font-size: 12px;
   text-align: right;
   text-transform: uppercase;
-  padding: 2px 0;
+  padding: 5px 0;
 }
 
 .header-top a {
   color: #fff;
   text-decoration: none;
   margin-left: 30px;
+}
+
+.header-bottom {
+  height: 100px;
+}
+
+.header-bottom .container,
+.header-bottom .row,
+.header-bottom .logo,
+.header-bottom .logo img {
+  height: 100%;
+}
+
+.header-bottom .logo {
+  padding: 15px 0;
+}
+
+.header-bottom .row {
+  justify-content: space-between;
+}
+
+.header-bottom nav ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+}
+
+.header-bottom nav ul li {
+  height: 100%;
+  margin-left: 50px;
+  line-height: 80px;
+}
+
+.header-bottom nav ul li a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  height: 100%;
+}
+
+.header-bottom nav ul li.active {
+  border-bottom: 5px solid #0282f9;
+}
+
+.header-bottom nav ul li.active a {
+  color: #0282f9;
 }
 
