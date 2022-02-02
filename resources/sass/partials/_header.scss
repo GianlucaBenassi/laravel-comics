@@ -32,14 +32,36 @@
 
         li {
             height: 100%;
-            margin-left: 50px;
+            margin-left: 30px;
             line-height: 80px;
 
             a {
                 color: #000;
+                font-size: 14px;
+                font-weight: bold;
                 text-transform: uppercase;
                 display: inline-block;
                 height: 100%;
+
+                .small-triangle {
+                    color: $mainBlue;
+                    font-size: 10px;
+                }
+            }
+
+            input[type="text"] {
+                border-left: 2px solid #fff;
+                border-right: 2px solid #fff;
+                border-top: 2px solid #fff;
+                border-bottom: 2px solid $mainBlue;
+                padding: 5px;
+
+                &::-webkit-input-placeholder { text-align:right; }
+                &:-moz-placeholder { text-align:right; }
+
+                &:focus-visible {
+                    outline: none;
+                }
             }
 
             &.active {

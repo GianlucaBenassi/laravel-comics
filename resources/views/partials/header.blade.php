@@ -12,22 +12,24 @@
             <div class="row">
 
                 <div class="logo">
-                    <img src="{{asset('img/dc-logo.png')}}" alt="DC logo">
+                    <a href="#">
+                        <img src="{{asset('img/dc-logo.png')}}" alt="DC logo">
+                    </a>
                 </div>
                 
                 <nav>
                     <ul>
-                        <li><a href="#">link</a></li>
-                        <li class="active"><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><input type="text" placeholder="Search"></li>
+                        <li><a href="#">characters</a></li>
+                        <li class="active"><a href="#">comics</a></li>
+                        <li><a href="#">movies</a></li>
+                        <li><a href="#">tv</a></li>
+                        <li><a href="#">games</a></li>
+                        <li><a href="#">collectible</a></li>
+                        <li><a href="#">videos</a></li>
+                        <li><a href="#">fans</a></li>
+                        <li><a href="#">news</a></li>
+                        <li><a href="#">shop <span class="small-triangle">&#9660;</span></a></li>
+                        <li><input type="text" placeholder="Search &#x1F50D;&#xFE0E;"></li>
                     </ul>
                 </nav>
                 
